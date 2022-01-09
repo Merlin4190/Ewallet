@@ -39,11 +39,11 @@ An e-wallet system that can be used by  three types of users, “Noob”, “Eli
 • Sends confirmation mail to user on every successful transaction
 
 # Other Features
-• Heavy duty functionalities should be running on their own independent thread
-• The handled errors should be logged in a file (File should be named with the current date inside a folder called → <folder name>ErrorLogs) with the following details
+• Heavy duty functionalities is running on their own independent thread
+• The handled errors is logged in a file (File is named with the current date inside a folder called → <folder name>ErrorLogs) with the following details
 • Error time and date
 • Error message
-• Each fresh entry of the above should be separated a next line
+• Each fresh entry of the above is separated with a next line
   
 # Get Started with this app.
 ## On Windows using Visual studio IDE
