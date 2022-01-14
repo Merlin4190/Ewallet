@@ -27,4 +27,4 @@ jobs:
       if: github.ref == 'refs/heads/main' && job.status == 'success'
       run: git remote add heroku https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_API_NAME }}.git
     - name: Deploy to Heroku
-      run: git push heroku HEAD:main -f
+      run: git push heroku HEAD:master -f
