@@ -21,7 +21,6 @@ jobs:
     # Clone the repository
     - name: Checkout
       uses: actions/checkout@v2
-      working-directory: ./
 
     # Build Docker image
     - name: Build
